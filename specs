@@ -1,0 +1,34 @@
+# Cinema Seat Manager — Specification
+
+## Objetivo
+
+Construir un prototipo en TypeScript para gestionar las reservas de asientos de una sala de cine mediante un arreglo bidimensional.
+
+## Funcionalidad principal
+
+El sistema debe permitir gestionar una sala de cine de 8 filas y 10 asientos por fila.
+
+### Requisitos
+
+1. Inicializar una matriz de 8 filas y 10 columnas.
+2. Representar los asientos disponibles con `0`.
+3. Representar los asientos ocupados con `1`.
+4. Mostrar el estado actual de la sala en la consola.
+5. Permitir reservar un asiento indicando su fila y columna.
+6. Antes de reservar, comprobar si el asiento está disponible.
+7. Si el asiento está disponible, cambiar su valor de `0` a `1`.
+8. Si el asiento ya está ocupado, informar que no puede reservarse.
+9. Contar y mostrar la cantidad de asientos ocupados y disponibles.
+
+## Restricciones
+
+- Utilizar TypeScript.
+- Representar los asientos únicamente mediante un arreglo bidimensional.
+- No utilizar clases.
+- No utilizar objetos para representar los asientos.
+- Utilizar funciones con parámetros y valores de retorno adecuados.
+- Utilizar estructuras condicionales y bucles cuando sean necesarios.
+
+## Fuera del alcance inicial
+
+La búsqueda de dos asientos libres contiguos se considera una funcionalidad avanzada y no forma parte de la funcionalidad principal inicial.
